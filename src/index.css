@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .button-normal {
+    @apply bg-rose-800 text-white rounded p-1.5;
+  }
+  .input-w-border {
+    @apply text-base italic text-center border-slate-700 border-2 rounded-md;
+  }
+  .section-container {
+    @apply border-rose-800 border-2 rounded-md p-3 space-y-2 m-2;
+  }
+  .label-bold-h {
+    @apply mr-2 font-bold;
+  }
+  .label-display-info {
+    @apply text-base italic text-center;
+  }
+}
