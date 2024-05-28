@@ -100,7 +100,7 @@ function OTA() {
   return (
     <div className="flex-col justify-center items-center text-center">
       <h2 className="text-xl lg:text-3xl">ESP32: Actualizacion de Firmware</h2>
-      <div className="flex-col section-container">
+      <div className="flex-col section-container-no-border">
         <div className="flex flex-row justify-center">
           <label htmlFor="firmware-date" className="flex-1 mr-2 font-bold">
             Último Firmware:

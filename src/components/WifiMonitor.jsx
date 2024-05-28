@@ -117,7 +117,7 @@ function WifiMonitor() {
   return (
     <div className="flex-col justify-center items-center text-center">
       <h2 className="text-xl lg:text-3xl">Estado de conexión WiFi</h2>
-      <div className="flex-col section-container">
+      <div className="flex-col section-container-no-border">
         <div className="flex flex-row justify-center">
           <label htmlFor="ssid" className="flex-1 mr-2 font-bold">
             SSID:

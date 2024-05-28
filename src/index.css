@@ -12,8 +12,14 @@
   .section-container {
     @apply border-rose-800 border-2 rounded-md p-3 space-y-2 m-2;
   }
+  .section-container-no-border {
+    @apply rounded-md p-3 space-y-2 m-2;
+  }
   .label-bold-h {
     @apply mr-2 font-bold;
+  }
+  .label-bold-v {
+    @apply mb-2 font-bold;
   }
   .label-display-info {
     @apply text-base italic text-center;
